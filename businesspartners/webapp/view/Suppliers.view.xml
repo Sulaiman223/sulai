@@ -1,7 +1,7 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ns.businesspartners.controller.Suppliers" displayBlock="true">
 	<Shell id="shell">
 		<App id="app">
-			<pages><Page id="page" title="{i18n>title}">
+			<pages><Page id="page" title="businessinfo">
 					<content>
 					    <List noDataText="Drop list items here" id="list0" items="{/BusinessPartnerSet}">
 					        <items>
